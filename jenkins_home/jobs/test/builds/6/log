@@ -1,0 +1,18 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins2969286005309725887.sh
++ 
++ echo This is Build ID 6 
+This is Build ID 6 
++ echo This is Build Number 6
+This is Build Number 6
++ echo This is Build URL http://jenkins.local:8080/job/test/6/
+This is Build URL http://jenkins.local:8080/job/test/6/
++ echo This is Jenkins URL is http://jenkins.local:8080/
+This is Jenkins URL is http://jenkins.local:8080/
++ echo This is OCT
+This is OCT
++ echo This is 2021
+This is 2021
+Finished: SUCCESS

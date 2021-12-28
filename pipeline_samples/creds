@@ -1,0 +1,14 @@
+pipeline{
+	agent any
+	environment{
+		SECRET = credentials('My_Secret')
+	}
+	stages{
+		stage('build'){
+			steps{
+				sh 'echo $SECRET ' 	
+			}
+		}
+	}
+
+}

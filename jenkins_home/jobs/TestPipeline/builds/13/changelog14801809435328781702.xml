@@ -1,0 +1,41 @@
+commit fcfd3f5e646b0b12316b4402e6d3728a14031ee9
+tree 669c9e4f300f3f2ae9e32d6bbe51fa3f58b4b0d9
+parent 34db94728cb5dda975f832e43a940e95f32aa973
+author Your Name <you@example.com> 2021-12-21 17:32:49 +0000
+committer Your Name <you@example.com> 2021-12-21 17:32:49 +0000
+
+    Fixed Jenkinsfile
+
+
+:100644 100644 67347b09b5e9e9aad7a84e25e73178289c95b97c c8a036bdf6421fa3c2ff502e7c21ca249473e8b7 M	Jenkinsfile
+commit 34db94728cb5dda975f832e43a940e95f32aa973
+tree 2a21f3c2e551f5656184f221d8ff952c5f2d6813
+parent 3ce265976b90a429686362dee861aeae8c59c845
+author Your Name <you@example.com> 2021-12-21 17:30:39 +0000
+committer Your Name <you@example.com> 2021-12-21 17:30:39 +0000
+
+    Fixed Jenkinsfile
+
+
+:100644 100644 8e2fa1da6fbe0d22cdab493129609ed62c2740e9 67347b09b5e9e9aad7a84e25e73178289c95b97c M	Jenkinsfile
+commit 3ce265976b90a429686362dee861aeae8c59c845
+tree c9fa2fbe1eb6b4387c5463bd920251f7b168b6ee
+parent ad784249960ba6bca1c8873c07ee1888d8cd2686
+author Your Name <you@example.com> 2021-12-21 17:24:17 +0000
+committer Your Name <you@example.com> 2021-12-21 17:24:17 +0000
+
+    Added Postactions in jenkinsfile
+
+
+:100644 100644 f76383c8f02caddc3a965d24555542077fce0318 8e2fa1da6fbe0d22cdab493129609ed62c2740e9 M	Jenkinsfile
+:100755 100755 fe5d01df36534dcf9cc4447e81fd9b71ad8e70df 1bf4a8ab7a725233af185efb394a037152cacae2 M	jenkins/deploy/deploy.sh
+commit ad784249960ba6bca1c8873c07ee1888d8cd2686
+tree ff667abefd90e9903e92f158a28753289730e1f2
+parent 9db2e9ac6cc0c81e8fdf82fca75b907443a1c919
+author Your Name <you@example.com> 2021-12-21 10:00:35 +0000
+committer Your Name <you@example.com> 2021-12-21 10:00:35 +0000
+
+    Added variable to jenkinsfile
+
+
+:100644 100644 85a26cd7433ac3c2677e51db411d7c90aabc4a47 f76383c8f02caddc3a965d24555542077fce0318 M	Jenkinsfile

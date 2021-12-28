@@ -1,0 +1,13 @@
+-
+  name: "Test"
+  hosts: remote
+  tasks:
+     -
+       shell: 'echo "Hello, from ansible" >> /tmp/ansible_file'
+
+     -
+       debug:
+          msg: '{{ MSG }}'
+
+
+       

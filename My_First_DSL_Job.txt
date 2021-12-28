@@ -1,0 +1,44 @@
+job ('My_first_DSL_JOB'){
+  
+ description('My first job')
+  
+  parameters{
+  booleanParam('FLAG', defaultValue = false)
+  stringParam( 'AGE',defaultValue = '55', description = 'This is my parameter'  )
+  choiceParam( 'OPTIONS',['option 1 (default)', 'option 2', 'option 3'] )
+  }
+
+  scm {
+    
+  	git('https://github.com/jenkins-docs/simple-java-maven-app.git', 'master')
+  
+  }
+  
+  triggers{
+  
+  	cron('H 5 * * 7')
+  
+  }
+  
+  steps{
+  
+    	shell("""
+
+				echo 'Hello'
+				echo 'Test...'
+
+			
+
+			""")
+    
+  }
+  
+  
+  publishers{
+  
+  	mailer('me@test.com', true, true)
+  
+  }
+  
+
+}

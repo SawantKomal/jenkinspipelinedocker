@@ -1,0 +1,5 @@
+
+
+remote ansible_host=remote_host ansible_connection=ssh ansible_user=remote_user ansible_private_key_file=/var/jenkins_home/ansible/remote_key
+webserver ansible_host=web ansible_connection=ssh ansible_user=remote_user ansible_private_key_file=/var/jenkins_home/ansible/remote_key
+

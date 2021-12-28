@@ -1,0 +1,27 @@
+job('maven_job_DSL'){
+	description('This is maven job by DSL')
+	scm{
+		git('https://github.com/jenkins-docs/simple-java-maven-app.git', '*/master', {node -> node / 'extension' << '' })
+	}
+	steps{
+		maven{
+			mavenInstallation('jenkins-maven')
+			goals('-B -DskipTests clean package')
+		}
+
+                maven{
+                        mavenInstallation('jenkins-maven')
+                        goals('test')
+                }
+
+                shell('''
+			echo "****Deploying jar*********"
+                        java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+		''')
+	}
+		publishers {
+			archiveJunit('target/surefire-reports/*.xml')
+			mailer('komal.sawant73@gmail.com', true, true)
+			archiveArtifacts('target/*.jar')
+		}
+}

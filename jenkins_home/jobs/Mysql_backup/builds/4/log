@@ -1,0 +1,23 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Mysql_backup
+[SSH] script:
+
+pwd
+
+ls -al
+
+[SSH] executing...
+/home/remote_user
+total 24
+drwx------ 1 remote_user remote_user 4096 Oct  9 11:21 .
+drwxr-xr-x 1 root        root        4096 Oct  9 11:21 ..
+-rw-r--r-- 1 remote_user remote_user   18 Jan 12  2021 .bash_logout
+-rw-r--r-- 1 remote_user remote_user  141 Jan 12  2021 .bash_profile
+-rw-r--r-- 1 remote_user remote_user  376 Jan 12  2021 .bashrc
+drwx------ 1 remote_user remote_user 4096 Oct 11 06:01 .ssh
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

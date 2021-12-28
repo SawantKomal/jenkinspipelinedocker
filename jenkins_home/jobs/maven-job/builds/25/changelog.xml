@@ -1,0 +1,11 @@
+commit d84b8fbbc6b30382b33ae35ddaf2d3dce4798575
+tree 4d1872f53beda9039629c5b4f14472e35be98b25
+parent 79c7610826968b5b69c87bee7d6ef194d1de1205
+author Your Name <you@example.com> 2021-11-15 10:33:26 +0000
+committer Your Name <you@example.com> 2021-11-15 10:33:26 +0000
+
+    Test git hooks
+
+
+:100644 100644 5a6d57214d17ba7484046928cf2e933ec550b50a ad60ccf4b532f50dad608a07f154310c19000efa M	src/main/java/com/mycompany/app/App.java
+:100644 100644 908bac851aef9be99dcc57a0efb36dc514d4e5ca 060502c2b0bde897d10e76d3098fb294bbe4e344 M	src/test/java/com/mycompany/app/AppTest.java

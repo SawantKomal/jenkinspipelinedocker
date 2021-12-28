@@ -1,0 +1,13 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/myfirstjob
+[myfirstjob] $ /bin/sh -xe /tmp/jenkins6327660409991305246.sh
++ touch /tmp/test.sh
++ NAME=Komal
++ LASTNAME=Ankolekar
++ echo Hello, Komal Ankolekar/tmp/test.sh
+Hello, Komal Ankolekar/tmp/test.sh
++ /tmp/test.sh
+/tmp/jenkins6327660409991305246.sh: 6: /tmp/test.sh: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

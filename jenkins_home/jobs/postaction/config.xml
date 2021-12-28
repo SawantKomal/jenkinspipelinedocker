@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.41">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.9.2"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.9.2">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.94">
+    <script>pipeline{
+        agent any
+        stages{
+                stage(&apos;TeST&apos;){
+                        steps{
+                                sh &apos;echo &quot;FAILED..&quot;; exit 1&apos;
+                        }
+                }
+        }
+        post{
+                always{ echo &quot;I will always execute&quot;
+                }
+                success{ echo &quot;I will execute only if success&quot;
+                }
+                failure{ echo &quot;I will execute if failed..&quot;
+                }
+                unstable{ echo &quot;I will always execute if unstable&quot;
+                }
+
+        }
+
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

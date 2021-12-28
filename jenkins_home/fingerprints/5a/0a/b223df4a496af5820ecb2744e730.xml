@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-12-17 10:10:44.48 UTC</timestamp>
+  <md5sum>5a0ab223df4a496af5820ecb2744e730</md5sum>
+  <fileName>Credential id=git_user name=komal/******</fileName>
+  <usages>
+    <entry>
+      <string>test_maven</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1640068739379</timestamp>
+      <itemFullName>pipeline_maven</itemFullName>
+      <timestamp0>1640068529786</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1640068912614</timestamp>
+      <itemFullName>TestPipeline</itemFullName>
+      <timestamp0>1640068912614</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

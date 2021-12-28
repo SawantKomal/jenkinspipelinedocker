@@ -1,0 +1,33 @@
+Started at Tue Dec 21 10:00:43 UTC 2021
+Checking ansible-user-db
+Checking ansible_test
+Checking ansible_user_DB_DSL
+Checking creds
+Deleting /var/jenkins_home/workspace/creds on Jenkins
+Checking DSL-job
+Checking DSL_maven
+Checking env
+Deleting /var/jenkins_home/workspace/env on Jenkins
+Checking maven-job
+Checking MAVEN_DSL
+Checking maven_job_DSL
+Checking My_first_DSL_JOB
+Checking myfirstjob
+Checking Mysql_backup
+Checking pipeline
+Checking pipeline2
+Deleting /var/jenkins_home/workspace/pipeline2 on Jenkins
+Checking pipeline3
+Deleting /var/jenkins_home/workspace/pipeline3 on Jenkins
+Checking postaction
+Deleting /var/jenkins_home/workspace/postaction on Jenkins
+Checking remote_task1
+Checking simple_app
+Checking test
+Checking Test_DSL
+Checking test_maven
+Checking Test_MAVEN_DSL
+Checking TestPipeline
+Checking timeouts
+Deleting /var/jenkins_home/workspace/timeouts on Jenkins
+Finished at Tue Dec 21 10:00:43 UTC 2021. 156ms

@@ -1,0 +1,14 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins8117849201490050235.sh
++ 
++ echo This is Build ID 2 
+This is Build ID 2 
++ echo This is Build Number 2
+This is Build Number 2
++ echo This is Build URL http://192.168.231.130:8080/job/test/2/
+This is Build URL http://192.168.231.130:8080/job/test/2/
++ echo This is Jenkins URL is http://192.168.231.130:8080/
+This is Jenkins URL is http://192.168.231.130:8080/
+Finished: SUCCESS

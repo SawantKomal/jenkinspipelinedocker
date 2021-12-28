@@ -1,0 +1,8 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/myfirstjob
+[myfirstjob] $ /bin/sh -xe /tmp/jenkins8365703583092931445.sh
++ /tmp/myscript.sh test komal
+/tmp/jenkins8365703583092931445.sh: 2: /tmp/myscript.sh: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

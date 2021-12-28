@@ -1,0 +1,18 @@
+Started by user [8mha:////4Jhx6GDGm7Xam0Mk7P+1cZWi1tIWHeZDP/a8AApTjCmyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins6833591925429458175.sh
++ 
++ echo This is Build ID 10 
+This is Build ID 10 
++ echo This is Build Number 10
+This is Build Number 10
++ echo This is Build URL http://jenkins.local:8080/job/test/10/
+This is Build URL http://jenkins.local:8080/job/test/10/
++ echo This is Jenkins URL is http://jenkins.local:8080/
+This is Jenkins URL is http://jenkins.local:8080/
++ echo This is OCT
+This is OCT
++ echo This is 2021
+This is 2021
+Finished: SUCCESS

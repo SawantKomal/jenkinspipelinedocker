@@ -1,0 +1,18 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DSL-job
+Processing provided DSL script
+ERROR: startup failed:
+script: 5: Invalid use of declaration inside method call.
+ @ line 5, column 22.
+     booleanParam(FLAG, boolean defaultValue = false)
+                        ^
+
+script: 6: Invalid use of declaration inside method call.
+ @ line 6, column 15.
+     stringParam(String AGE,defaultValue = '55', description = 'This is my parameter'  )
+                 ^
+
+2 errors
+
+Finished: FAILURE

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-10-19 06:31:14.972 UTC</timestamp>
+  <md5sum>75c43ae226dbfee8dec76c82721408dd</md5sum>
+  <fileName>Credential id=Mysql_Password name=mysql password for username root</fileName>
+  <usages>
+    <entry>
+      <string>Mysql_backup</string>
+      <ranges>1-13</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

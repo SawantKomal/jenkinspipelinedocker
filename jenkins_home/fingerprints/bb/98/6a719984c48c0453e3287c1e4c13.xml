@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-10-19 06:31:14.998 UTC</timestamp>
+  <md5sum>bb986a719984c48c0453e3287c1e4c13</md5sum>
+  <fileName>Credential id=Secret_Key name=AWS Secrete key</fileName>
+  <usages>
+    <entry>
+      <string>Mysql_backup</string>
+      <ranges>1-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-12-22 10:18:57.601 UTC</timestamp>
+  <original>
+    <name>TestPipeline</name>
+    <number>15</number>
+  </original>
+  <md5sum>8788286349cf05b5d9214f47a3f98460</md5sum>
+  <fileName>my-app-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>TestPipeline</string>
+      <ranges>15</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

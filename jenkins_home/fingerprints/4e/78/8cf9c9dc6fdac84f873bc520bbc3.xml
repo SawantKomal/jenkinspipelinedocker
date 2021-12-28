@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-12-17 10:08:28.422 UTC</timestamp>
+  <md5sum>4e788cf9c9dc6fdac84f873bc520bbc3</md5sum>
+  <fileName>Credential id=git_user name=komal/******</fileName>
+  <usages>
+    <entry>
+      <string>test_maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

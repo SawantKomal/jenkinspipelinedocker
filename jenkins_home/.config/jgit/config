@@ -1,0 +1,6 @@
+[filesystem "Eclipse Foundation|11.0.12|/dev/mapper/ubuntu--vg-ubuntu--lv"]
+	timestampResolution = 5000 nanoseconds
+	minRacyThreshold = 5284 microseconds
+[filesystem "Eclipse Adoptium|11.0.13|/dev/mapper/ubuntu--vg-ubuntu--lv"]
+	timestampResolution = 4000 nanoseconds
+	minRacyThreshold = 7556 microseconds

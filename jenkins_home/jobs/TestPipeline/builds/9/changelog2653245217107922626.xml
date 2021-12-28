@@ -1,0 +1,11 @@
+commit 9db2e9ac6cc0c81e8fdf82fca75b907443a1c919
+tree 5c3c416cfd38ab24284563d1b4453a8f5c464211
+parent 19330cdeaf57a54644071c637d3d303f4851370a
+author Your Name <you@example.com> 2021-12-21 07:35:14 +0000
+committer Your Name <you@example.com> 2021-12-21 07:35:14 +0000
+
+    Fixed Path in build and test
+
+
+:100755 100755 8e8bbf8f513e3090839ede753b744ab8ed776d14 75e25fb103f105bca5bff94a7f40b6283add97df M	jenkins/build/mvn.sh
+:100755 100755 0f3e424edac8be46b63b487b8ee639ce42bd35d4 2f6c6c6c30c3e28fd64961dd6f2d97f6b0c34296 M	jenkins/test/mvn.sh

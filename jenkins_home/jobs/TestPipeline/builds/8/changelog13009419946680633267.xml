@@ -1,0 +1,10 @@
+commit 19330cdeaf57a54644071c637d3d303f4851370a
+tree 37fa004c2227afd32f765eb18c860dcf2ef94fd9
+parent 58a3bd6a767d78dcf6e4788b3a4efb0648ef39c9
+author Your Name <you@example.com> 2021-12-21 07:12:37 +0000
+committer Your Name <you@example.com> 2021-12-21 07:12:37 +0000
+
+    updated Jenkinsfile
+
+
+:100644 100644 84ec854bb48731ed07478d9698768261c6a26fc3 85a26cd7433ac3c2677e51db411d7c90aabc4a47 M	Jenkinsfile

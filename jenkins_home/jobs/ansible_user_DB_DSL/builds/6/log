@@ -1,0 +1,17 @@
+Started by user [8mha:////4OJExtxXJIN8lBXApjxB2XkS7WOcXXWo/x1YBlwlDxVrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL97PzcxBwAHaj18cAAAAA=[0mkomal ankolekar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible_user_DB_DSL
+[8mha:////4Jp8SuJAlooW1UwoeEaSWP4f2WGw6df3GGhK7Bna98VnAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlbQkcwsDM9M03TSzFFNdkzSDNF0L4zRjXYskM3NzQ6MUEyMDAwBcQn4grwAAAA==[0m[ansible_user_DB_DSL] $ ansible-playbook /var/jenkins_home/ansible/play.yml -i /var/jenkins_home/ansible/inventory.txt -f 5 -e PEOPLE_AGE=23
+
+PLAY [For host webserver] ******************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [webserver][0m
+
+TASK [Template tranfer file from local to webserver] ***************************
+[0;33mchanged: [webserver][0m
+
+PLAY RECAP *********************************************************************
+[0;33mwebserver[0m                  : [0;32mok=2   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

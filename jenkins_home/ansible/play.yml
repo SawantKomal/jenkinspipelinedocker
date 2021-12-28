@@ -1,0 +1,10 @@
+-
+  name: "For host webserver"
+  hosts: webserver
+  tasks:
+     - name: "Template tranfer file from local to webserver"
+       template:
+             src: table.j2
+             dest: /var/www/html/index.php
+
+
